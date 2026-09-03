@@ -11,7 +11,7 @@ browsers run web applications in the sandbox environment. it restricts many thin
 
 ## XSS
 
-the `alert(1)` is just the demonstration of XSS. this doesn't show the actual impact of the the code execution on the victim's browser. the XSS allows various action an attacker can perform, for example: stealing the `localStorage` which may include authentication token. thats why it's important to storee authentication token in `Cookie` rather than `localStorage` is better. `localStorage` can be stolen, but if the `Cookie` has `HttpOnly` flag set, it therefore cannot be accessed by client-side javascripts.
+the `alert(1)` is just the demonstration of XSS. this doesn't show the actual impact of the the code execution on the victim's browser. the XSS allows various action an attacker can perform, for example: stealing the `localStorage` which may include authentication token. thats why it's important to store authentication token in `Cookie` rather than `localStorage` is better. `localStorage` can be stolen, but if the `Cookie` has `HttpOnly` flag set, it therefore cannot be accessed by client-side javascripts.
 if the cookie is not using `HttpOnly` flag, one can access it using `document.cookie` or the updated `cookieStore` API.
 
 **`<script>` tag doesn't work in the context of `innerHTML`**
@@ -25,7 +25,7 @@ modern frontend frameworks usually handles escaping automatically (even by defau
 
 the robust way of validating URLs is to use `new URL()` for parsing instead of using simple string comparison or usingRegExp and make judgement based on the return value. this will prevent bugs like open redirection.
 
-seom people may know that `setTimeout` can also execute code as a string:
+some people may know that `setTimeout` can also execute code as a string:
 ```
 setTimeout('alert(1)')
 ```
@@ -47,3 +47,5 @@ There is also a similar 'sha256-abc...' rule, which allows specific inline scrip
 ### conclusion:
 - the first line of defense against XSS: the encoding and sanitization of user input.
 - the second line of defense against XSS: setting up CSP header
+- the third layer is considering extra security measures like setting up MFA, using web workers to isolate API calls and prevent token theft, api limit etc.
+
