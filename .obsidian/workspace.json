@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6fbf5cb9b61d2907",
+        "id": "3b1e03924ff17cc2",
         "type": "tabs",
         "children": [
           {
-            "id": "380cb996c34da7c8",
+            "id": "4cf91786035582e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@personal/interview-questions-and-asks.md",
+                "file": "windows/AD/ad-concepts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "interview-questions-and-asks"
+              "title": "ad-concepts"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "web/web-cache-bugs.md",
+                "file": "windows/AD/ad-concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "windows/AD/ad-concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -160,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "windows/AD/ad-concepts.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -172,7 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 408.1875,
     "collapsed": true
   },
   "left-ribbon": {
@@ -186,10 +188,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "e37ccac726fab0c9",
+  "active": "4cf91786035582e8",
   "lastOpenFiles": [
-    "@personal",
+    "windows/AD/@topics.md",
     "windows/AD/ad-concepts.md",
+    "@personal/interior designer app idea.md",
+    "@personal/interview-questions-and-asks.md",
+    "devsecops.md",
+    "@personal",
     "attachments/Pasted image 20260906175010.png",
     "attachments/Pasted image 20260907141857.png",
     "attachments/Pasted image 20260907171143.png",
@@ -201,7 +207,6 @@
     "attachments/Pasted image 20260906132217.png",
     "attachments/Pasted image 20260906152718.png",
     "attachments",
-    "@personal/interview-questions-and-asks.md",
     "web/postmessage.md",
     "web/web-cache-bugs.md",
     "web/beyond-xss.md",
@@ -218,7 +223,6 @@
     "windowsa/AD",
     "windowsa",
     "README.md",
-    "devsecops.md",
     "crypto/xor.md",
     "crypto/gcd.md",
     "devops_&_devsecops/Untitled.md",
