@@ -1,0 +1,12 @@
+- noPac attack
+- ADFS / ADCS
+- gMSA
+- PrintNIghtmare
+- Shadow Credentials Attack
+- ZeroLogon Attack
+- [harmj0y](https://www.slideshare.net/harmj0y/derbycon-2019-kerberoasting-revisited)
+- DCShadow attack
+- ASREPRoast Technique
+- Powershell Empire Framework
+- PowerView.ps1
+- 
